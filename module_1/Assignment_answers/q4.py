@@ -17,3 +17,10 @@ print(f"Without slicing : \n{reverse}")
 
 lastindex=len(my_string)
 print(f"{my_string[4:lastindex]}")
+
+# vi) reverse the string 
+reverse = my_string[:10:-1]
+value_0 = reverse[0]
+print(f"String in reverse :: {reverse}\n 0th value is {value_0}")
+
+# vii)
